@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.board {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.form_element {
+  background-color: cadetblue;
+  padding: 10px 24px;
+  font-size: 10px;
+  border-radius: 12px;
+  margin-left: 40px;
+}
+.form_element:hover {
+  background-color: chartreuse;
+}
+.reset {
+  background-color: cadetblue;
+  padding: 10px 24px;
+  font-size: 10px;
+  border-radius: 12px;
+}
+.reset:hover {
+  background-color: cyan;
+}
+
+.label {
+  background-color: darkgray;
+  margin-left: 3px;
+  margin-right: 25px;
+}
+.label:hover {
+  background-color: darkseagreen;
+}
+body {
+  background-color: honeydew;
+}
