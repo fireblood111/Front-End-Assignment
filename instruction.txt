@@ -1,0 +1,4 @@
+1) Download all files.
+2) Using terminal go to that folder.
+3) Using terminal download npm modules using command (npm install).
+4) Using terminal run command (npm start)
