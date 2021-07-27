@@ -1,0 +1,32 @@
+{
+	"name": "integrationRuntime1",
+	"properties": {
+		"type": "Managed",
+		"description": "My first IR",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "Central India",
+				"nodeSize": "Standard_D2_v3",
+				"numberOfNodes": 2,
+				"maxParallelExecutionsPerNode": 2,
+				"vNetProperties": {
+					"vNetId": "/subscriptions/ebcd1cf5-89c8-4b38-bd99-6eea44b5ac2a/resourceGroups/synapselearn/providers/Microsoft.Network/virtualNetworks/tanmay",
+					"subnet": "default"
+				}
+			},
+			"ssisProperties": {
+				"edition": "Standard",
+				"licenseType": "LicenseIncluded",
+				"packageStores": [
+					{
+						"name": "linkedservice1",
+						"packageStoreLinkedService": {
+							"referenceName": "linkedService1",
+							"type": "LinkedServiceReference"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "singh111",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cf867d98-89d2-4e02-80ed-f72ee61425f5",
+		"tenantId": "4fd354cb-e69d-49f6-b954-daf93d5cef95"
+	}
+}
